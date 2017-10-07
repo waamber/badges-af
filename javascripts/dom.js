@@ -5,6 +5,14 @@ const badges = require('./xhr');
 $('.btn-info').click(() => {
   $('body').addClass('dance');
   $('.badgeCard').removeClass('flip').addClass('rubberBand infinite');
+  $('.btn-info').addClass('hidden');
+  $('.byeBtn').removeClass('hidden');
+});
+
+$('.byeBtn').click(() => {
+  $('.badgeCard').removeClass('rubberBand infinite').addClass('bounceOut');
+  $('.btn-info').removeClass('hidden');
+  $('.byeBtn').addClass('hidden');
 });
 
 const createDomString = (badgeData) => {
