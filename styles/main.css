@@ -1,0 +1,38 @@
+body {
+  background-color: pink;
+}
+
+.dance {
+background-image: url('http://gifmaker.org/download/20171007-06-KHNi6t5q58WTrdX8/GIFMaker.org_sUHJ5V.gif');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.heading{
+  text-align: center;
+  font-family: 'Ribeye Marrow', cursive;
+}
+
+h1 {
+   font-size: 80px;
+}
+
+#badge-container {
+  margin: 15px;
+  padding: 30px;
+}
+
+.badgeCard {
+  display: inline-block;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.badgeImage {
+  height: 70px;
+  width: 70px;
+}
+
+/*.hidden {
+  display: none;
+}*/
