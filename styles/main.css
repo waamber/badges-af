@@ -19,6 +19,7 @@ h1 {
 
 #badge-container {
   margin: 15px;
+  margin-top: 20px;
   padding: 30px;
 }
 
@@ -33,6 +34,6 @@ h1 {
   width: 70px;
 }
 
-/*.hidden {
+.hidden {
   display: none;
-}*/
+}
